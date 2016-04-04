@@ -1,0 +1,119 @@
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 500;
+    
+}
+
+.line {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.line td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+.line th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+tr.line:last-of-type {
+    border-bottom: none;
+}
+
+
+.linestb {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    
+    padding-top: 30px;
+    padding-bottom: 12px;
+    
+}
+
+.numbers {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text2 {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+
+.barchart {
+    color: black;
+    width: 100%;
+    
+}
+
+.barchart th {
+    padding-right: 7px;
+    text-align: right;
+    width: 2% ;
+}
+
+.barchart div {
+    color: white;
+    background-color: #5AA4E0;
+    padding: 4px;
+}
+
+
+/* light box */
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.box2 {
+	width: 50%;
+	height: 50%;
+	background: red;
+		
+}
+
+
+/* Media Block */
+
+.img1 {
+   float: left;
+   padding-right:10px ;
+}
+
+.textright {
+    padding-left: 60px;
+}
+
+.textright2 {
+    padding-left: 40px;
+}
